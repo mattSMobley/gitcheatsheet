@@ -1,0 +1,364 @@
+.navbar {
+  display: inline-block;
+  overflow: hidden;
+}
+
+#navlinks {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 20em;
+}
+#nav {
+  background-color: rgba(0, 0, 0, .5);
+  border: none;
+  color: white;
+}
+
+#navtitles{
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-family: "Gill Sans";
+  font-size: 1.3em;
+}
+
+
+
+#logo {
+  font-family: 'Pinyon Script', cursive;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font: normal 15px/1.5 "Helvetica Neue", Helvetica, "Gill Sans", sans-serif;
+  color: #232525;
+  padding-top: 0px;
+  background-color: #B1C1C7;
+}
+
+/*Main Page Slideshow*/
+#slides {
+  display: none;
+}
+
+#slides .slidesjs-navigation {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+a.slidesjs-next, a.slidesjs-previous, a.slidesjs-play, a.slidesjs-stop {
+  background-image: url(img/btns-next-prev.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 12px;
+  height: 18px;
+  overflow: hidden;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 5px;
+}
+a.slidesjs-next {
+  margin-right: 10px;
+  background-position: -12px 0;
+}
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+a.slidesjs-previous {
+  background-position: 0 0;
+
+}
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+a.slidesjs-play {
+  width: 15px;
+  background-position: -25px 0;
+}
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+a.slidesjs-stop {
+  width: 18px;
+  background-position: -41px 0;
+}
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+.slidesjs-pagination {
+  margin: 7px 0 0;
+  float: right;
+  list-style: none;
+  margin-right: 5px;
+}
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+.slidesjs-pagination li a.active, .slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+#slides a:link, #slides a:visited {
+  color: #333
+}
+#slides a:hover, #slides a:active {
+  color: #9e2020
+}
+
+/* END Main Page Slideshow */
+
+
+#intro {
+  padding-top: 8em;
+}
+
+#intro h4{
+  margin-left: 8%;
+  margin-right: 8%;
+  line-height: 150%;
+  font-family: "Gill Sans";
+  font-size: 1.4em;
+}
+
+#intro h2 {
+  font-family: "Gill Sans";
+  text-align: center;
+  font-size: 3em;
+}
+
+.support {
+  padding: 5em;
+}
+.container {
+  margin: 0 auto
+}
+
+/* For tablets & smart phones */
+
+/*@media (max-width: 767px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container {
+    width: auto
+  }
+}*/
+
+/* For smartphones */
+
+/*@media (max-width: 480px) {
+  .container {
+    width: auto
+  }
+}*/
+
+/* For smaller displays like laptops */
+
+/*@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 724px
+  }
+}*/
+
+/* For larger displays */
+
+/*@media (min-width: 1200px) {
+  .container {
+    width: 1170px
+  }
+}*/
+.fa .fa-camera-retro {
+  font-size: 5em;
+  padding-top: 5em;
+}
+#contact i {
+  font-size: 10em;
+  margin-top: .8em;
+}
+
+#phoneDiv {
+  padding-top: .8em;
+  padding-left: .2em;
+}
+
+#phoneDiv:hover {
+  cursor: pointer;
+}
+
+#emailDiv {
+
+}
+
+#emailDiv:hover {
+  cursor: pointer;
+}
+
+#contact h1 {
+  font-size: 10em;
+  font-weight: 200;
+  margin-top: .7em;
+}
+
+.replaceDiv {
+  font-size: 2em;
+
+}
+
+.contactSupport {
+  padding-top: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+/* PRICE TABLE */
+
+.priceTable {
+	margin:0px;
+  padding-left: 2em;
+  padding-right: 2em;
+	width:100%;
+
+
+
+	-moz-border-radius-bottomleft:15px;
+	-webkit-border-bottom-left-radius:15px;
+	border-bottom-left-radius:15px;
+
+	-moz-border-radius-bottomright:15px;
+	-webkit-border-bottom-right-radius:15px;
+	border-bottom-right-radius:15px;
+
+	-moz-border-radius-topright:15px;
+	-webkit-border-top-right-radius:15px;
+	border-top-right-radius:15px;
+
+	-moz-border-radius-topleft:15px;
+	-webkit-border-top-left-radius:15px;
+	border-top-left-radius:15px;
+}.priceTable table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.priceTable tr:last-child td:last-child {
+	-moz-border-radius-bottomright:15px;
+	-webkit-border-bottom-right-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.priceTable table tr:first-child td:first-child {
+	-moz-border-radius-topleft:15px;
+	-webkit-border-top-left-radius:15px;
+	border-top-left-radius:15px;
+}
+.priceTable table tr:first-child td:last-child {
+	-moz-border-radius-topright:15px;
+	-webkit-border-top-right-radius:15px;
+	border-top-right-radius:15px;
+}.priceTable tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:15px;
+	-webkit-border-bottom-left-radius:15px;
+	border-bottom-left-radius:15px;
+}.priceTable tr:hover td{
+
+}
+.priceTable tr:nth-child(odd){ background-color:#79bcc4; }
+.priceTable tr:nth-child(even)    { background-color:#ffffff; }.priceTable td{
+	vertical-align:middle;
+
+
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:15px;
+	font-size:12px;
+	font-family:"Gill Sans";
+	font-weight:normal;
+	color:#000000;
+}.priceTable tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.priceTable tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.priceTable tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.priceTable tr:first-child td{
+		background:-o-linear-gradient(bottom, #71bec6 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #71bec6), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #71bec6 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#71bec6", endColorstr="#000000");	background: -o-linear-gradient(top,#71bec6,000000);
+
+	background-color:#71bec6;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:19px;
+	font-family:"Gill Sans";
+	font-weight:bold;
+	color:#ffffff;
+}
+.priceTable tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #71bec6 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #71bec6), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #71bec6 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#71bec6", endColorstr="#000000");	background: -o-linear-gradient(top,#71bec6,000000);
+
+	background-color:#71bec6;
+}
+.priceTable tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.priceTable tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+/* END Price Table */
+
+
+/* FADE IN */
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.fade-in.one {
+-webkit-animation-delay: 0.2s;
+-moz-animation-delay: 0.2s;
+animation-delay: 0.2s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 1.0s;
+-moz-animation-delay: 1.0s;
+animation-delay: 1.0s;
+}
+
+/* END FADE IN */
